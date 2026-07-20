@@ -1,6 +1,6 @@
 {
-  "name": "pattern-collector-routesjs-use",
-  "version": "1.2.2",
+  "name": "pattern-collector-routesjs-import",
+  "version": "1.2.3",
   "description": "A high-performance pattern collector and ESM import statement analyzer.",
   "keywords": [
     "pattern",
@@ -24,12 +24,12 @@
     "README.md",
     "LICENSE"
   ],
-  "homepage": "https://github.com/keshavsoft/pattern-collector-routesjs-use#readme",
+  "homepage": "https://github.com/keshavsoft/pattern-collector-routesjs-import#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keshavsoft/pattern-collector-routesjs-use"
+    "url": "https://github.com/keshavsoft/pattern-collector-routesjs-import"
   },
   "bugs": {
-    "url": "https://github.com/keshavsoft/pattern-collector-routesjs-use/issues"
+    "url": "https://github.com/keshavsoft/pattern-collector-routesjs-import/issues"
   }
 }
