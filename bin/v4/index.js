@@ -1,0 +1,21 @@
+import getAllMatches from "pattern-collector";
+
+const searchString = /^[ \t]*import\b.*from\s+['"]\.[^'"]*['"];/gm;
+
+const fileNameToPull = "routes.js";
+
+const startFunc = ({ fileContent }) => {
+    try {
+        const matches = getAllMatches({
+            fileContent, searchString
+        });
+
+        return matches;
+    } catch (error) {
+        console.error("Error running test:", error.message);
+    };
+
+    return [];
+};
+
+export default startFunc;
